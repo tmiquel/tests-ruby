@@ -61,7 +61,6 @@ describe "#power" do
   expect(power(2, 4)).to eq(16)
   end
 end
-
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
   it "computes the factorial of 0"

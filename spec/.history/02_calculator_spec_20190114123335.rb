@@ -53,14 +53,12 @@ describe "#multiply" do
 
   it "multiplies two other numbers, one of them being 0"do
     expect(multiply(0, 4.6)).to eq(0)# one last test, with 0 in it
+
   end
-end
 
 describe "#power" do
-  it "raises one number to the power of another number"do
-  expect(power(2, 4)).to eq(16)
+  it "raises one number to the power of another number"
   end
-end
 
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
