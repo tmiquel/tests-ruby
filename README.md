@@ -21,7 +21,8 @@ Made in Marseille with love.
 
 Our results for the exercices about Rspec (Monday, Jan 14th 2019, THP)
 
-In the lib folder, you will find our files
+In the lib folder, you will find our files.
+
 In the spec folder, you will find all the corresponding test files
 
 Run the later ("rspec spec/filename_spec.rb").
