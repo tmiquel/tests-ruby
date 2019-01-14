@@ -1,5 +1,4 @@
 #!usr/bin/env ruby
-
 def time_string(seconds)
 	output_sec =seconds % 60
 	output_min = (seconds - output_sec)/60  % 60
