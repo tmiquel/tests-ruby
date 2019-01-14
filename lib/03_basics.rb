@@ -31,6 +31,6 @@ end
   # BONUS : You can do this in one line less than 55 chars
 
 def magic_array(*elements)
-	return *elements.flatten.sort.map { |element| element*2}.select {|element| element % 3 != 0}.uniq
+	return *elements.flatten.sort.map {|element| element*2}.select {|element| element % 3 != 0}.uniq
 end
 
